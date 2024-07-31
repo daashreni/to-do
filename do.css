@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 body{
     background-color: #e2b030;
     text-align: center;
     margin: 10px 10px;
-    font-family: cursive;
     font-size: 2rem;
     font: bold;
     color: white;
@@ -15,78 +15,29 @@ body{
     width: 50%;
     padding: 20px;
     margin: 0px auto;
-    height: 100vh;
     border-radius: 30px;
     justify-content: center;
     background-color: whitesmoke;
     
 }
-.list{
-    margin: 10px;
-}
-input[type="checkbox"] {
-    float: left;
-    margin-right: 10px; 
-    height: 40px;
-    width: 17px;
-    cursor: pointer;
-    border: none;
-    border-radius: 50px;
-  }
-  
   input[type="text"] {
     display: block;
-    width: 97%; 
+    width: 100%; 
     margin-bottom: 10px; 
     font-size: 40px; 
-    font-family: cursive;
+    text-align: center;
     background-color: #c9c9c9;
     border: none;
     border-radius: 25px;
   }
   button{
     cursor: pointer;
+    margin-top: 20px;
     border: none;
-    border-radius:10px ;
+    border-radius:20px ;
     background-color: #747373;
     height: 5%;
     width: 30%;
     font-size: 2rem;
     color: whitesmoke;
   }
-  .checkbox-container {
-    display: inline-block;
-    position: relative;
-    width: 40px;
-    height: 40px;
-}
-.checkbox-container input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-.checkbox-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #333;
-    position: relative;
-    cursor: pointer;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.checkbox-circle::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 22px;
-    border: solid #333;
-    border-width: 0 3px 3px 0;
-    transform: rotate(45deg);
-    opacity: 0;
-}
-.checkbox-container input:checked + .checkbox-circle::after {
-    opacity: 1;
-}
