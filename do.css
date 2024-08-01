@@ -4,7 +4,8 @@
     font-family: cursive;
 }
 body{
-    background-color: #e2b030;
+    background-color:#d4a017;
+    /* #e2b030 */
     text-align: center;
     margin: 10px 10px;
     font-size: 2rem;
@@ -32,7 +33,7 @@ body{
   }
   button{
     cursor: pointer;
-    margin-top: 20px;
+    margin: 20px;
     border: none;
     border-radius:20px ;
     background-color: #747373;
@@ -40,4 +41,21 @@ body{
     width: 30%;
     font-size: 2rem;
     color: whitesmoke;
+  }
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 10px; 
+    height: 40px;
+    width: 17px;
+    cursor: pointer;
+    border: none;
+ 
+  }
+  label{
+    display: block;
+    color: black;
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: start;
   }

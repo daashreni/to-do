@@ -6,10 +6,21 @@ Abutton.addEventListener("click", (e) => {
     var inputvalue = input.value;
     e.preventDefault();
 
-    if( input.value == " "){
+    if( input.value == ""){
         alert("please do something");
         return;
     }
-    console.log(input.value);
+
+const checkbox = document.createElement('input');
+checkbox.type = 'checkbox';
+
+const label = document.createElement('label');
+label.textContent = input.value.trim();
+
+list.appendChild(checkbox);
+list.appendChild(label);
+
+input.value = "";
+
 }
 )
