@@ -13,6 +13,14 @@ Abutton.addEventListener("click", (e) => {
 
 const checkbox = document.createElement('input');
 checkbox.type = 'checkbox';
+checkbox.addEventListener('change', (e) => {
+    if (checkbox.checked) {
+        label.classList.add('strikethrough');
+    } 
+    else {
+        label.classList.remove('strikethrough');
+    }
+})
 
 const label = document.createElement('label');
 label.textContent = input.value.trim();

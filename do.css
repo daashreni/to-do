@@ -56,6 +56,9 @@ body{
     margin: 20px;
     text-align: start;
   }
+  label.strikethrough{
+    text-decoration: line-through;
+  }
   img{
     width: 50%;
     height: max-content;
