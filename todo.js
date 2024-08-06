@@ -7,7 +7,7 @@ Abutton.addEventListener("click", (e) => {
     e.preventDefault();
 
     if( input.value == ""){
-        alert("please do something");
+        alert("Let's make it happen!");
         return;
     }
 
